@@ -43,8 +43,8 @@ public:
 			xi[i] -= v[i] * 0.5 * dt;
 	}
 	~osc() {
-		delete xi;
-		delete v;
+		delete[] xi;
+		delete[] v;
 	}
 	void advance() {
 		// main loop
