@@ -1,0 +1,4 @@
+xi	   5
+theta1   10 # comment
+theta2   20	
+c        4.5 # would not be read, only int values are allowed
